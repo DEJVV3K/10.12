@@ -29,7 +29,7 @@ void files::loop(){
 	while(!fileIn.eof()){
 		int liczby;
 		fileIn>>liczby;
-		if(liczby>1000){
+		if(liczby<1000){
 			fileOut<<liczby;
 			cout<<liczby<<"\n";
 		}
